@@ -41,7 +41,7 @@ class Provider extends AbstractProvider
      *
      * @var array
      */
-    protected $scopes = ['/authenticate', '/read-limited'];
+    protected $scopes = ['/authenticate', 'openid'];
 
     /**
      * The separating character for the requested scopes.
